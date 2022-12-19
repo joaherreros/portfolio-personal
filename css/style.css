@@ -1,0 +1,36 @@
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background: rgb(245,250,255);
+background: linear-gradient(110deg, rgba(245,250,255,1) 0%, rgba(167,212,255,1) 100%);}
+
+.h1{
+    font-size:55px;
+}
+.h2{
+    font-size:30px;
+}
+
+
+nav {
+    background: #4896f5;
+}
+
+.navbar a {
+    color: black;
+}
+
+.TextoPresentacion {
+    color: black;
+}
+
+.SectorColor{
+    background: #4896f5;
+}
+
+.logoProyecto{
+    height: 300px;
+}
+
