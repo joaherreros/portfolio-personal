@@ -16,10 +16,10 @@
 
 @keyframes typing {
   0% {
-      width: 0;
+    width: 0;
   }
   100% {
-      width: 100%;
+    width: 100%;
   }
 }
 
@@ -27,5 +27,24 @@
   overflow: hidden;
   border-right: 4px solid #e3e3e3;
   white-space: nowrap;
-  animation: typing 2s steps(40) forwards;
+  animation: typing 2s steps(40, end) forwards, blink-caret 1s step-end infinite 2s;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #e3e3e3;
+  }
 }
