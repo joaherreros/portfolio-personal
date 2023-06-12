@@ -1,0 +1,31 @@
+.fade-in {
+  opacity: 0;
+  animation: fade-in 1s ease-in forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes typing {
+  0% {
+      width: 0;
+  }
+  100% {
+      width: 100%;
+  }
+}
+
+#typing-animation {
+  overflow: hidden;
+  border-right: 4px solid #e3e3e3;
+  white-space: nowrap;
+  animation: typing 2s steps(40) forwards;
+}

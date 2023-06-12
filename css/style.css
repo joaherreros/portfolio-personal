@@ -3,8 +3,10 @@
 }
 
 body {
-    background: rgb(245,250,255);
-background: linear-gradient(110deg, rgba(245,250,255,1) 0%, rgba(167,212,255,1) 100%);}
+    background: #1f1f1f;
+    /* background: linear-gradient(110deg, #3e313b 0%, #000000 100%); */
+    color: #e3e3e3;
+}
 
 .h1{
     font-size:55px;
@@ -14,23 +16,27 @@ background: linear-gradient(110deg, rgba(245,250,255,1) 0%, rgba(167,212,255,1) 
 }
 
 
-nav {
-    background: #4896f5;
-}
-
-.navbar a {
-    color: black;
-}
-
 .TextoPresentacion {
-    color: black;
+    color: #e3e3e3;
 }
 
 .SectorColor{
-    background: #4896f5;
+    background: #38b6ff;
+    color: #1f1f1f;
 }
 
 .logoProyecto{
     height: 300px;
 }
 
+.card-text{
+    color: #1f1f1f;
+}
+
+.card-title{
+    color: #1f1f1f;
+}
+
+.card-body{
+    background-color: #e3e3e3;
+}
